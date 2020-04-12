@@ -561,9 +561,14 @@ p {
 
 footer {
 	width: 70%;
-	margin: auto;
+	margin: 20px auto;
+	text-align: center;
 }
 
+.hr-footer {
+	width: 50%;
+	border-color: #FEFEFE;
+}
 
 
 
