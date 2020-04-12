@@ -256,10 +256,17 @@ p {
 
 
 /* Latest */
+.latest-wrap {
+	background-color: #F0ECEF;
+	width: 100%;
+	height: 300px;
+}
+
 .latest {
 	display: flex;
 	width: 70%;
 	margin: 50px auto;
+	padding: 70px;
 }
 
 .latest-desc {
@@ -534,7 +541,7 @@ p {
 
 #mp-hiw-wrap {
 	width: 100%;
-	height: 1000px;
+	height: 1200px;
 	background-image: url(../image/MP-HIW.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -548,6 +555,8 @@ p {
 
 #mp-gs-wrap {
 	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 #mp-gs {
@@ -557,6 +566,44 @@ p {
 
 #mp-hiw a {
 	font-weight: 600;
+}
+
+.mp-hiw-left {
+	position: relative;
+	text-align: left;
+}
+
+.mp-hiw-right {
+	position: relative;
+	text-align: right;
+}
+
+.ripple {
+	width: 60px;
+	height: 60px;
+	display: none;
+}
+
+.ripple-left {
+	position: absolute;
+	top: 0;
+	left: -80px;
+}
+
+.ripple-right {
+	position: absolute;
+	top: 0;
+	right: -80px;
+}
+
+.mp-hiw-desc-left {
+	display: none;
+	padding-right: 60%;
+}
+
+.mp-hiw-desc-right {
+	display: none;
+	padding-left: 60%;
 }
 
 footer {

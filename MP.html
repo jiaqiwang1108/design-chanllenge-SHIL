@@ -5,6 +5,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bttn.css/0.2.4/bttn.min.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
 	<title>HOME | Stanford HIL</title>
 </head>
@@ -29,7 +30,7 @@
 			</div>
 		</header>
 		
-		<div id="hero-mp">
+		<div id="hero-mp" class="animated fadeIn">
 			<div id="intro-mp">
 				<div id="introdesc-mp">	
 					<h1>Join Us in Molecular Profiling (MP)</h1>
@@ -45,29 +46,35 @@
 		<div id="mp-hiw-wrap">
 			<div id="mp-hiw">
 				<h2>How It Works</h2>	
-				<div>
+				<div class="mp-hiw-left">
 					<h2>01</h2>
-					<p>You must be live near Stanford to participate in the microsampling study.</p>
+					<p id="mp-hiw1" class="mp-hiw-desc-left animated fadeInUp">You must be live near Stanford to participate in the microsampling study.</p>
+					<img id="ripple1" class="animated zoomIn ripple ripple-left" src="image/ripple.png" alt="ripple" />
 				</div>
-				<div>
+				<div class="mp-hiw-right">
 					<h2>02</h2>
-					<p>Complete the <a href="#">consent and enrollment process online</a>.</p>
+					<p id="mp-hiw2" class="mp-hiw-desc-right animated fadeInUp">Complete the <a href="#">consent and enrollment process online</a>.</p>
+					<img id="ripple2" class="animated zoomIn ripple ripple-right" src="image/ripple.png" alt="ripple" />
 				</div>
-				<div>
+				<div class="mp-hiw-left">
 					<h2>03</h2>
-					<p>You will receive a microsampling kit. The kit contains supplies to collect fingerprick microsamples. See microsampling <a href="https://fa5bde06-578a-478d-9fe0-eddfa8951b12.filesusr.com/ugd/282376_d4cdacdc1c644157a95f22ae6d4d38f4.pdf">instructions</a> and <a href="https://youtu.be/ALoGa-XRBrA">video</a>.</p>
+					<p id="mp-hiw3" class="mp-hiw-desc-left animated fadeInUp">You will receive a microsampling kit. The kit contains supplies to collect fingerprick microsamples. See microsampling <a href="https://fa5bde06-578a-478d-9fe0-eddfa8951b12.filesusr.com/ugd/282376_d4cdacdc1c644157a95f22ae6d4d38f4.pdf">instructions</a> and <a href="https://youtu.be/ALoGa-XRBrA">video</a>.</p>
+					<img id="ripple3" class="animated zoomIn ripple ripple-left" src="image/ripple.png" alt="ripple" />
 				</div>
-				<div>
+				<div class="mp-hiw-right">
 					<h2>04</h2>
-					<p>You will collect microsamples at home and complete an online symptom survey.</p>
+					<p id="mp-hiw4" class="mp-hiw-desc-right animated fadeInUp">You will collect microsamples at home and complete an online symptom survey.</p>
+					<img id="ripple4" class="animated zoomIn ripple ripple-right" src="image/ripple.png" alt="ripple" />
 				</div>
-				<div>
+				<div class="mp-hiw-left">
 					<h2>05</h2>
-					<p>Drop off the microsamples at Stanford. </p>
+					<p id="mp-hiw5" class="mp-hiw-desc-left animated fadeInUp">Drop off the microsamples at Stanford. </p>
+					<img id="ripple5" class="animated zoomIn ripple ripple-left" src="image/ripple.png" alt="ripple" />
 				</div>
-				<div>
+				<div class="mp-hiw-right">
 					<h2>06</h2>
-					<p>If you have a wearable health tracker, you are encouraged to concurrently enroll in the <a href="https://redcap.stanford.edu/surveys/?s=J4DN8P479A">wearables study</a>.</p>
+					<p id="mp-hiw6" class="mp-hiw-desc-right animated fadeInUp">If you have a wearable health tracker, you are encouraged to concurrently enroll in the <a href="https://redcap.stanford.edu/surveys/?s=J4DN8P479A">wearables study</a>.</p>
+					<img id="ripple6" class="animated zoomIn ripple ripple-right" src="image/ripple.png" alt="ripple" />
 				</div>
 			</div>
 		</div>
@@ -81,16 +88,18 @@
 			</div>
 		</div>
 		
-		<div class="latest">
-			<div class="latest-desc">
-				<h2>Get the latest from us </h2>
-				<p>Share your email so Stanford Healthcare Innovation Lab(SHIL) can send you our latest news.</p>
-			</div>
-			<div class="latest-email">
-				<form>
-				    <input class="email-field" type="text" placeholder="Enter your email here">
-				    <button class="bttn-minimal btn-subscribe">Subscribe</button>
-				</form>
+		<div class="latest-wrap">
+			<div class="latest">
+				<div class="latest-desc">
+					<h2>Get the latest from us </h2>
+					<p>Share your email so Stanford Healthcare Innovation Lab(SHIL) can send you our latest news.</p>
+				</div>
+				<div class="latest-email">
+					<form>
+					    <input class="email-field" type="text" placeholder="Enter your email here">
+					    <button class="bttn-minimal btn-subscribe">Subscribe</button>
+					</form>
+				</div>
 			</div>
 		</div>
 
@@ -99,6 +108,40 @@
 			<p>Participants' rights questions: 1-866-680-2906</p>
 			<p>Crafted by Jiaqi Wang</p>
 		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script>
+			$(function() {
+				$(window).scroll(function() {
+					var base = 500;
+					var offset = 180;
+					if ($(window).scrollTop() >= base+offset*0) {
+						$("#ripple1").show();
+						$("#mp-hiw1").show();
+					}
+					if ($(window).scrollTop() >= base+offset*1) {
+						$("#ripple2").show();
+						$("#mp-hiw2").show();
+					}
+					if ($(window).scrollTop() >= base+offset*2) {
+						$("#ripple3").show();
+						$("#mp-hiw3").show();
+					}
+					if ($(window).scrollTop() >= base+offset*3) {
+						$("#ripple4").show();
+						$("#mp-hiw4").show();
+					}
+					if ($(window).scrollTop() >= base+offset*4) {
+						$("#ripple5").show();
+						$("#mp-hiw5").show();
+					}
+					if ($(window).scrollTop() >= base+offset*5) {
+						$("#ripple6").show();
+						$("#mp-hiw6").show();
+					}
+				});
+			});
+		</script>
 	</div>
 </body>
 </html>
