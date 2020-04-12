@@ -32,7 +32,7 @@ header {
 	margin: auto;
 }
 
-.header a {
+.header-float {
 	position: relative;
 	float: right;
 	display: block;
@@ -242,9 +242,16 @@ p {
 	top: 0;
 }
 
+.bottom-CTA-wrap {
+	width: 100%;
+	height: 400px;
+	background-color: rgba(140, 21, 21, 0.03);
+}
+
 .bottom-CTA {
 	width: 70%;
 	margin: auto;
+	padding-top: 20px;
 }
 
 
@@ -252,8 +259,7 @@ p {
 .latest {
 	display: flex;
 	width: 70%;
-	margin: auto;
-	margin-top: 50px;
+	margin: 50px auto;
 }
 
 .latest-desc {
@@ -524,6 +530,39 @@ p {
     border-radius: 50%;
 }
 
+/* MP */
+
+#mp-hiw-wrap {
+	width: 100%;
+	height: 1000px;
+	background-image: url(../image/MP-HIW.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#mp-hiw {
+	width: 70%;
+	margin: auto;
+	padding-top: 100px;
+}
+
+#mp-gs-wrap {
+	width: 100%;
+}
+
+#mp-gs {
+	width: 70%;
+	margin: auto;
+}
+
+#mp-hiw a {
+	font-weight: 600;
+}
+
+footer {
+	width: 70%;
+	margin: auto;
+}
 
 
 

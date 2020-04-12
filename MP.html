@@ -12,16 +12,18 @@
 	<div id="content">
 		<header>
 			<div class="header">
-				<img id="logo" src="image/SHIL_logo.webp" alt="Logo"/>
-				<button class="bttn-jelly btn-enroll">Enroll</button>
-				<a href="about us.html">About Us</a>
+				<a href="index.html">
+					<img id="logo" src="image/SHIL_logo.webp" alt="Logo">
+				</a>
+				<button class="bttn-jelly btn-enroll" onclick="window.location.href='#'">Enroll</button>
+				<a class="header-float" href="about us.html">About Us</a>
 				<div class="dropdown">
-					<a class="dropbtn">COVID-19 Initiatives</a>	
+					<a class="dropbtn header-float">COVID-19 Initiatives</a>	
 					<div class="dropdown-content">
-						<a href="index.html">PHD</a>
-					 	<a href="MP.html">MP</a>
-						<a href="http://www.gogcrc.org/">Go to GCRC</a>
-						<a href="#">Coming Soon</a>
+						<a class="header-float" href="index.html">PHD</a>
+					 	<a class="header-float" href="MP.html">MP</a>
+						<a class="header-float" href="http://www.gogcrc.org/">Go to GCRC</a>
+						<a class="header-float" href="#">Coming Soon</a>
 					</div>
 				</div>
 			</div>
@@ -34,66 +36,66 @@
 					<p>We are using "microsampling" technology to better understand COVID-19. Join us if you are interested!</p>
 				</div>
 				<div id="CTA-mp">
-					<button class="bttn-jelly btn-enroll-mp">Enroll MP Study</button>
+					<button class="bttn-jelly btn-enroll-mp" onclick="window.location.href='#'">Enroll MP Study</button>
 					<button class="bttn-jelly btn-contact-mp">Contact Us</button>
 				</div>
 			</div>
 		</div>
 
-		<main>
-			<div>
-				<h2>How It Works</h2>
+		<div id="mp-hiw-wrap">
+			<div id="mp-hiw">
+				<h2>How It Works</h2>	
+				<div>
+					<h2>01</h2>
+					<p>You must be live near Stanford to participate in the microsampling study.</p>
+				</div>
+				<div>
+					<h2>02</h2>
+					<p>Complete the <a href="#">consent and enrollment process online</a>.</p>
+				</div>
+				<div>
+					<h2>03</h2>
+					<p>You will receive a microsampling kit. The kit contains supplies to collect fingerprick microsamples. See microsampling <a href="https://fa5bde06-578a-478d-9fe0-eddfa8951b12.filesusr.com/ugd/282376_d4cdacdc1c644157a95f22ae6d4d38f4.pdf">instructions</a> and <a href="https://youtu.be/ALoGa-XRBrA">video</a>.</p>
+				</div>
+				<div>
+					<h2>04</h2>
+					<p>You will collect microsamples at home and complete an online symptom survey.</p>
+				</div>
+				<div>
+					<h2>05</h2>
+					<p>Drop off the microsamples at Stanford. </p>
+				</div>
+				<div>
+					<h2>06</h2>
+					<p>If you have a wearable health tracker, you are encouraged to concurrently enroll in the <a href="https://redcap.stanford.edu/surveys/?s=J4DN8P479A">wearables study</a>.</p>
+				</div>
 			</div>
-			<div>
-				<h2>01</h2>
-				<p>You must be live near Stanford to participate in the microsampling study.</p>
-			</div>
-			<div>
-				<h2>02</h2>
-				<p>Complete the consent and enrollment process online.</p>
-			</div>
-			<div>
-				<h2>03</h2>
-				<p>You will receive a microsampling kit. The kit contains supplies to collect fingerprick microsamples. See microsampling instructions and video.</p>
-			</div>
-			<div>
-				<h2>04</h2>
-				<p>You will collect microsamples at home and complete an online symptom survey.</p>
-			</div>
-			<div>
-				<h2>05</h2>
-				<p>Drop off the microsamples at Stanford. </p>
-			</div>
-			<div>
-				<h2>06</h2>
-				<p>If you have a wearable health tracker, you are encouraged to concurrently enroll in the wearables study.</p>
-			</div>
-			<div>
+		</div>
+		
+		<div id="mp-gs-wrap">
+			<div id="mp-gs">
 				<h2>Ready to get started?</h2>
 				<p>Enroll our MP Study or get in touch.</p>
-				<button class="bttn-jelly btn-enroll-mp">Enroll MP Study</button>
+				<button class="bttn-jelly btn-enroll-mp" onclick="window.location.href='#'">Enroll MP Study</button>
 				<button class="bttn-jelly btn-contact-mp">Contact Us</button>
 			</div>
-			<div class="latest">
-				<div class="latest-desc">
-					<h2>Get the latest from us </h2>
-					<p>Share your email so Stanford Healthcare Innovation Lab(SHIL) can send you our latest news.</p>
-				</div>
-				<div class="latest-email">
-					<form>
-					    <input class="email-field" type="text" placeholder="Enter your email here">
-					    <button class="bttn-minimal btn-subscribe">Subscribe</button>
-					</form>
-				</div>
+		</div>
+		
+		<div class="latest">
+			<div class="latest-desc">
+				<h2>Get the latest from us </h2>
+				<p>Share your email so Stanford Healthcare Innovation Lab(SHIL) can send you our latest news.</p>
 			</div>
-
-
-
-			
-		</main>
+			<div class="latest-email">
+				<form>
+				    <input class="email-field" type="text" placeholder="Enter your email here">
+				    <button class="bttn-minimal btn-subscribe">Subscribe</button>
+				</form>
+			</div>
+		</div>
 
 		<footer>
-			
+			Participants' rights questions: 1-866-680-2906
 		</footer>
 	</div>
 </body>

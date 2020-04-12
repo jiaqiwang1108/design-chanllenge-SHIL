@@ -11,16 +11,18 @@
 <body>
 	<header>
 		<div class="header">
-			<img id="logo" src="image/SHIL_logo.webp" alt="Logo"/>
-			<button class="bttn-jelly btn-enroll">Enroll</button>
-			<a href="about us.html">About Us</a>
+			<a href="index.html">
+				<img id="logo" src="image/SHIL_logo.webp" alt="Logo">
+			</a>
+			<button class="bttn-jelly btn-enroll" onclick="window.location.href='https://redcap.stanford.edu/surveys/?s=YJ3FRCWX8X'">Enroll</button>
+			<a class="header-float" href="about us.html">About Us</a>
 			<div class="dropdown">
-				<a class="dropbtn">COVID-19 Initiatives</a>	
+				<a class="dropbtn header-float">COVID-19 Initiatives</a>	
 				<div class="dropdown-content">
-					<a href="index.html">PHD</a>
-				 	<a href="MP.html">MP</a>
-					<a href="http://www.gogcrc.org/">Go to GCRC</a>
-					<a href="#">Coming Soon</a>
+					<a class="header-float" href="index.html">PHD</a>
+				 	<a class="header-float" href="MP.html">MP</a>
+					<a class="header-float" href="http://www.gogcrc.org/">Go to GCRC</a>
+					<a class="header-float" href="#">Coming Soon</a>
 				</div>
 			</div>
 		</div>
@@ -42,8 +44,8 @@
 					<p>My Personal Health Dashboard (MyPHD) is a tool to explore your health data while helping to advance science. </p>
 				</div>
 				<div id="CTA">
-					<button class="bttn-jelly btn-enroll-phd">Enroll PHD Study</button>
-					<button class="bttn-jelly btn-contact-phd">Contact Us</button>
+					<button class="bttn-jelly btn-enroll-phd" onclick="window.location.href='https://redcap.stanford.edu/surveys/?s=YJ3FRCWX8X'">Enroll PHD Study</button>
+					<button class="bttn-jelly btn-contact-phd" onclick="location.href='mailto:covid19_wearables@lists.stanford.edu'">Contact Us</button>
 				</div>
 			</div>
 		</div>
@@ -92,7 +94,7 @@
 		<div class="screen">
 			<div class="screen-desc-right">
 				<h3>AGGREAGATE AND VISUALIZE</h3>
-				<p>Integration with the latest technologies enables the real-time updates on your health-related data and even predict the onset of symptoms berehand.</p>
+				<p>By Aggregating the data from your different wearables within a certain time period, Personal Health Dashboard will present you with a synthezied version of your health data in multiple formats.</p>
 			</div>
 		</div>
 		<img id="screen-img2" class="animated fadeInUp screen-img screen-img-left" src="image/screen2.png" alt="screen2"/>
@@ -103,7 +105,7 @@
 		<div class="screen">
 			<div class="screen-desc-left">
 				<h3>MULTIPLE DEVICES AVALABLE</h3>
-				<p>Integration with the latest technologies enables the real-time updates on your health-related data and even predict the onset of symptoms berehand.</p>
+				<p>We fit your need as you may possess multiple wearable devies. Enable any of them and select the main one that you would like to use.</p>
 			</div>
 		</div>
 		<img id="screen-img3" class="animated fadeInUp screen-img screen-img-right" src="image/screen3.png" alt="screen3"/>
@@ -114,19 +116,21 @@
 		<div class="screen">
 			<div class="screen-desc-right">
 				<h3>MANAGE YOUR SYMPTOMS VIA CALENDAR</h3>
-				<p>Integration with the latest technologies enables the real-time updates on your health-related data and even predict the onset of symptoms berehand.</p>
+				<p>A calendar is included in the Personal Health Dashboard to streamline and reduce the friction of managing and tracing back your symptoms.</p>
 			</div>
 		</div>
 		<img id="screen-img4" class="animated fadeInUp screen-img screen-img-left" src="image/screen4.png" alt="screen4"/>
 		<img id="bg5" class="animated fadeInLeft screen-bkgd left-bkgd" src="image/bg5.png" />
 	</div>
 
-	<div class="bottom-CTA">
-		<h2>Ready to get started?</h2>
-		<p>Enroll our PHD Study or get in touch.</p>
-		<p>Complete the enrollment survey to get started. The MyPHD app is currently only for iPhone. To use MyPHD, you need at least one of the following compatible devices: FitBit, Apple Watch, Oura Ring, Motiv Ring, Garmin Watch, BioStrap, Dexcom CGM.</p>
-		<button class="bttn-jelly btn-enroll-phd">Enroll PHD Study</button>
-		<button class="bttn-jelly btn-contact-phd">Contact Us</button>
+	<div class="bottom-CTA-wrap">
+		<div class="bottom-CTA">
+			<h2>Ready to get started?</h2>
+			<p>Enroll our PHD Study or get in touch.</p>
+			<p>Complete the enrollment survey to get started. The MyPHD app is currently only for iPhone. To use MyPHD, you need at least one of the following compatible devices: FitBit, Apple Watch, Oura Ring, Motiv Ring, Garmin Watch, BioStrap, Dexcom CGM.</p>
+			<button class="bttn-jelly btn-enroll-phd" onclick="window.location.href='https://redcap.stanford.edu/surveys/?s=YJ3FRCWX8X'">Enroll PHD Study</button>
+			<button class="bttn-jelly btn-contact-phd" onclick="location.href='mailto:covid19_wearables@lists.stanford.edu'">Contact Us</button>
+		</div>
 	</div>
 
 	<div class="latest">
@@ -143,7 +147,7 @@
 	</div>
 
 	<footer>
-		
+		Participants' rights questions: 1-866-680-2906
 	</footer>
 	<!-- <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script> -->
 	<!-- <script src="script/script.js"></script> -->
